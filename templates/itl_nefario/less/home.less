@@ -1,0 +1,227 @@
+/** 
+ *------------------------------------------------------------------------------
+ * @package       iThemesLab for Joomla!
+ *------------------------------------------------------------------------------
+ * @copyright     Copyright (C) 2014 ithemeslab.com. All Rights Reserved.
+ * @license       GNU General Public License version 2 or later; see LICENSE.txt
+ * @authors       iThemesLab
+ * @Link:         http://ithemeslab.com 
+ *------------------------------------------------------------------------------
+ */
+
+
+// VARIABLES & MIXINS
+// ------------------
+@import "vars.less"; // Modify this for custom colors, font-sizes, etc
+
+
+// ---------------------------------------------------------
+// HOME
+// ---------------------------------------------------------
+.home {
+
+  // Heading
+  h1 {
+    line-height: 1;
+  }
+
+  h2 {
+    font-size: floor(@font-size-base * 1.5);
+    // Bigger font size on Tablet / Desktop
+    @media screen and (min-width: @screen-sm) {
+      font-size: floor(@font-size-base * 2.15);
+    }
+  }
+
+  // Home Jumbotron
+  .jumbotron {
+    background-color: transparent;
+    position: relative;
+    margin-bottom: 0;
+  }
+
+  .t3-module {
+    margin-bottom: 0 !important;
+  }
+
+  // 
+  // HOME SPOTLIGHTS
+  // ---------------------------------------------------------
+
+.feature {
+  padding: 100px 0;
+}
+
+.feature-bottom {
+  padding: 100px 0;
+}
+
+h2.module-title {
+  margin-bottom: 0;
+}
+
+.portfolio {
+  padding: 100px 0;
+}
+.portfolio .moduletable h3, .service .moduletable h3 {
+  padding: 0;
+  font-weight: 300;
+  text-align: center;
+  font-size: 34px;
+  color: #444;
+  text-transform: uppercase;
+}
+
+.clients .moduletable h3 {
+  padding: 0;
+  font-weight: 300;
+  text-align: left;
+  font-size: 34px;
+  color: #444;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.service-wrap {
+  padding: 100px 0;
+  background: #fafafa;
+}
+
+.service-top {
+  padding-bottom: 20px;
+}
+
+.service {
+  padding-top: 20px;
+}
+
+.feature-tab {
+  padding: 100px 0;
+}
+
+.testimonials {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.extension {
+  padding: 100px 0; 
+}
+
+.clients {
+  padding: 100px 0 100px;
+}
+
+.subscribe {
+  padding: 100px 0;
+  background: @link-color;
+  color: @white;
+  text-align: center;
+}
+
+.action-home-2 {
+  padding: 100px 0;
+}
+
+  // Spotlight 2
+  // -----------
+  .t3-sl-2 {
+    text-align: center;
+
+    .img-responsive {
+      display: inline-block;
+    }
+
+    p {
+      // Bigger Font size in Tablet / Desktop
+      @media screen and (min-width: @screen-sm) {
+        font-size: @t3-font-size-bigger;
+        line-height: floor(@t3-font-size-bigger * @line-height-base);
+      }
+    }
+  }
+
+
+  // Spotlight 3 & 4
+  // ---------------
+  .t3-sl-3 p > img {
+    margin-top: @line-height-computed;
+    @media screen and (min-width: @screen-md) {
+      margin-top: 0;
+    }
+  }
+
+
+  .t3-sl-3,
+  .t3-sl-4 {
+    border-top: 1px solid @t3-border-color;
+    text-align: center;
+
+    p {
+      // Bigger Font size in Tablet / Desktop
+      @media screen and (min-width: @screen-sm) {
+        font-size: @t3-font-size-bigger;
+        line-height: floor(@t3-font-size-bigger * @line-height-base);
+      }
+    }
+
+    // Jumbotron Header
+    .jumbotron {
+      padding-top: 0;
+
+      h1 {
+        margin-bottom: @line-height-computed / 2;
+        margin-top: 0;
+      }
+
+      p {
+        font-size: @font-size-large;
+        line-height: 1.25;
+        color: @gray-light;
+        // Bigger Font size in Tablet / Desktop
+        @media screen and (min-width: @screen-sm) {
+          font-size: ceil(@font-size-base * 1.5);
+        }
+      }
+
+    }
+
+  }
+
+
+  // Spotlight 5
+  // -----------
+  .t3-sl-5 {
+    background: @t3-spotlight-background;
+    color: @t3-spotlight-text-color;
+    border-top: 1px solid @t3-border-color;
+    padding: 0;
+
+    // jumbotron
+    .jumbotron {
+      border-radius: 0;
+      margin-bottom: 0;
+    }
+  }
+
+// End Home Spotlight
+}
+
+.white {
+  h1,h2,h3,h4,h5,h6,p{color: @white;}
+  .moduletable {
+    h3 {
+      color: @white;
+    }
+  }
+  .feature-list {
+    span {
+      color: @white;
+    }
+    &:hover {
+      span {
+        color: @link-color;
+      }
+    }
+  }
+}

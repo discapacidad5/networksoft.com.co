@@ -1,0 +1,2 @@
+[11-Aug-2014 12:40:16 Asia/Dhaka] PHP Warning:  fseek() expects parameter 1 to be resource, boolean given in /home/eiffle/public_html/demo/agnes/administrator/components/com_joomlaupdate/restore.php on line 1539
+[11-Aug-2014 13:00:40 Asia/Dhaka] PHP Warning:  fseek() expects parameter 1 to be resource, boolean given in /home/eiffle/public_html/demo/agnes/administrator/components/com_joomlaupdate/restore.php on line 1539

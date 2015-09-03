@@ -1,0 +1,318 @@
+//Portfolio Start
+.sprocket-mosaic-filter  {
+  li {font-weight: @text-font-weight;}
+  li.inactive {background: @link-color;color: @white;}
+  li.inactive:hover {color: @white;}
+  li.active {color: @link-color;}
+  li:hover {color: @link-color;}
+}
+.sprocket-mosaic {
+  .sprocket-mosaic-container {
+    .sprocket-mosaic-item {
+      margin         : 1px;
+      border-radius  : 0;
+      border         : 0;
+      .sprocket-padding {
+        padding: 0;
+        .itl-overlay {
+          position     : absolute;
+          width        : 100%;
+          height       : 100%;
+          display      : none;
+          text-align   : center;
+          background: @link-color;
+          h2 {
+            margin: 35% 0 10px 0;
+            padding: 0;
+            font-size: 20px;
+            a{
+              color: @white;
+              text-transform: uppercase;
+              &:hover{
+                text-decoration: none;
+              }
+            }
+          }
+          a.sprocket-readmore {
+
+            &:hover {
+
+              text-decoration: none;
+            }
+          }
+          a {
+            span{
+              font-size: 3em;
+              color: #fff;
+              margin-top: 10%;
+              .transition(all .3s);
+              &:hover {
+                text-decoration: none;
+                color: #000;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .sprocket-mosaic-loadmore {
+    margin-top: 30px;
+    background: transparent;
+    border: 0;
+    .loadmore-more span {
+      font-size: 40px;
+      color:#e2e2e2;
+      .transition(all .5s);
+    }
+  }
+}
+
+//Portfolio End
+
+//Testimonial Start
+//================
+//Features Section
+//=================
+
+.testimonial {
+  text-align: center;
+  .sprocket-features-title {
+    font-size: 24px;
+    font-weight: @headings-font-weight;
+    color: @white;
+    text-transform: uppercase;
+    small {
+      font-size: 16px;
+    }
+  }
+  .sprocket-features-img-container  {
+
+    img {
+      padding: 4px;
+      background: @link-color;
+      height: 100px;
+      width: 100px;
+      border-radius:100%;
+    }
+  }
+  .sprocket-features-desc {
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: @white;
+  }
+  .layout-showcase .sprocket-features-pagination li, .layout-showcase .sprocket-features-arrows .arrow {background: @link-color;}
+  .layout-showcase .sprocket-features-arrows {
+    .arrow {
+      background: none;
+      position: absolute;
+      color: @link-color;
+      border: 2px solid @link-color;
+      border-radius:4px;
+      float: none;
+      box-shadow: none;
+    }
+    .prev {
+      right: 22px;
+    }
+    .next {
+      right: 0px;
+    }
+  }
+  .sprocket-features-arrows .arrow:hover {background:@link-color !important; color: @white;}
+}
+//Testimonial End
+
+.sprocket-lists-title {
+  font-weight: @headings-font-weight;
+}
+
+.active {
+  .sprocket-lists-title {
+    border-left: 2px solid @link-color;
+  }
+  .sprocket-lists-title .indicator {
+    border: 1px solid @link-color;
+  }
+}
+
+.sprocket-lists-title .indicator {
+  right: 10px;
+}
+
+//====================
+// Sprocket Strips
+//====================
+.sprocket-strips-content {
+  img {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0.7;
+    margin: auto;
+  }
+  
+  &:hover img {
+    opacity: 1;
+  }
+}
+
+
+
+.sprocket-strips ul li {
+  width: 20%;
+  margin: 0;
+  border: 1px solid #eee;
+  border-right: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  &:last-child {
+    border-right: 1px solid #eee;
+  }
+  .sprocket-strips-item {
+    height: 100px;
+    box-shadow: none;
+    background-size: initial;
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.35;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+@media screen and (max-width: @screen-sm) {
+  .sprocket-strips ul li {
+    width: 50% !important;
+    border-right: 1px solid #eee;
+  }
+}
+.sprocket-strips-arrows {
+  .arrow {
+    background: @link-color;
+    position: absolute;
+    color: #fff;
+    border-radius:2px;
+    float: none;
+    width: 20px;
+    height: 20px;
+    top: -20px;
+  }
+  .prev {
+    right: 22px;
+  }
+  .next {
+    right: 0px;
+  }
+}
+
+//Sprocket Simple Tab
+.sprocket-tabs-nav > li.active > .sprocket-tabs-inner {background-color: @link-color; color: @white;}
+.sprocket-tabs-nav li .sprocket-tabs-inner {font-weight: @text-font-weight; text-transform: uppercase;}
+
+.sprocket-tabs-panels > .sprocket-tabs-panel.active {
+  p {
+    font-size:14px;
+    font-weight: @text-font-weight;
+  }
+  img {
+    margin: 0 14px 10px 0;
+    border-radius: 4px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+}
+//Sprocket Simple Tab
+
+//Sprocket Feature Tab
+.feature-tab {
+  ul.sprocket-tabs-nav {
+    > li { border-radius: 0 !important;
+      > .sprocket-tabs-inner {
+        background: #ffffff;
+        border-radius: 0;
+        .sprocket-tabs-text {
+          h3 {
+            margin: 0;
+            color: #888;
+            font-size: 22px;
+            text-transform: initial;
+            padding: 0 0 10px;
+          }
+          p {
+            margin-bottom: 0;
+            padding: 0;
+            font-size: 14px;
+            color: #888;
+          }
+          .main-tab-icon {
+            font-size: 40px;
+            width: 52px;
+            height: 52px;
+            line-height: 52px;
+            text-align: center;
+            display: inline-block;
+            top: -10px;
+            position: relative;
+          }
+        }
+        
+      }
+      .main-tab-content {
+          display: inline-block;
+        }
+    }
+
+    > li.active {
+      > .sprocket-tabs-inner {
+        background: @link-color;
+        color:#ffffff;
+        border-radius: 0;
+        .sprocket-tabs-text {
+          h3 {
+            margin: 0;
+            color: @white;
+            font-size: 22px;
+            text-transform: initial;
+            padding: 0 0 10px;
+          }
+          p {
+            margin-bottom: 0;
+            padding: 0;
+            font-size: 14px;
+            color: @white;
+          }
+          .main-tab-icon {
+            font-size: 40px;
+            width: 52px;
+            height: 52px;
+            line-height: 52px;
+            text-align: center;
+            display: inline-block;
+            top: -10px;
+            position: relative;
+          }
+        }
+        .main-tab-content {
+          display: inline-block;
+        }
+      }
+    }
+  }
+  .sprocket-tabs-panel.active {
+    img {
+      margin-left: 50px;
+    }
+  }
+}
+//Sprocket Feature Tab

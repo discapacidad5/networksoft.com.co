@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://networksoft.com.co/</loc>
+  <lastmod>2015-09-01T16:33:50+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://networksoft.com.co/about-us.html</loc>
+  <lastmod>2015-09-01T16:33:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://networksoft.com.co/services.html</loc>
+  <lastmod>2015-09-01T16:33:55+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://networksoft.com.co/contact.html</loc>
+  <lastmod>2015-09-01T16:33:57+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://networksoft.com.co/blog.html</loc>
+  <lastmod>2015-09-01T16:33:58+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://networksoft.com.co/desarrollo-web.html</loc>
+  <lastmod>2015-09-01T16:33:59+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://networksoft.com.co/app.html</loc>
+  <lastmod>2015-09-01T16:34:01+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://networksoft.com.co/soluciones-empresariales.html</loc>
+  <lastmod>2015-09-01T16:34:04+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://networksoft.com.co/84-nefario-demo/portfolio/108-at-vero-eos-et-accusamus.html</loc>
+  <lastmod>2015-09-01T16:34:08+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://networksoft.com.co/84-nefario-demo/portfolio/109-cursus-id-lorem-glavico.html</loc>
+  <lastmod>2015-09-01T16:34:11+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://networksoft.com.co/component/k2/item/3-firefox-os-app-day-fusagasuga.html</loc>
+  <lastmod>2015-09-01T16:34:15+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://networksoft.com.co/blog/item/3-firefox-os-app-day-fusagasuga.html</loc>
+  <lastmod>2015-09-01T16:34:17+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://networksoft.com.co/blog/itemlist/category/2-eventos.html</loc>
+  <lastmod>2015-09-01T16:34:19+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://networksoft.com.co/blog/itemlist/category/3-noticias.html</loc>
+  <lastmod>2015-09-01T16:34:20+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://networksoft.com.co/component/k2/itemlist/category/2-eventos.html</loc>
+  <lastmod>2015-09-01T16:34:22+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://networksoft.com.co/component/k2/itemlist/user/42-superuser.html</loc>
+  <lastmod>2015-09-01T16:34:24+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://networksoft.com.co/blog/itemlist/user/42-superuser.html</loc>
+  <lastmod>2015-09-01T16:34:26+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.51</priority>
+</url>
+</urlset>
